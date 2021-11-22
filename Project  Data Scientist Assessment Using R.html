@@ -1,0 +1,84 @@
+1.Membuat Data frame
+ Jika kamu memiliki data.frame berikut :
+ Bagaimana kamu memunculkan output berikut di R console? 
+
+ [1] 4 5 6
+ [2] 1
+ [3] 6
+
+ #jawab :
+ df <- data.frame(a = c(1, 2, 3), b = c(4, 5, 6), c = c(7, 8, 9))
+ df [["b"]]
+ df ["a"][1,]
+ df ["b"][3,]
+
+2.Membuat Vector dan Index Position
+ Silahkan mengisi bagian blank (……) dengan syntax yang sesuai sehingga diperoleh output yang diharapkan.
+
+ x <- c("red","blue","yellow","orange","green","purple")
+ y <- x..................
+ y
+ output :
+ [1] "blue","yellow","orange"
+
+ #jawab 
+ x <- c("red","blue","yellow","orange","green","purple")
+ y <- c("blue","yellow","orange")
+ y
+
+3.Mengisi Syntax Factor 
+  Mengisi Syntax Factor
+
+  Variabel (x) adalah suatu factor :
+
+  1. Isilah blank (….) dengan syntax yang tepat sehingga dihasilkan output berikut : 
+
+  2. Bagaimana syntax yang tepat untuk memodifikasi (x), jika output yang diharapkan adalah berikut ini :
+     [1] grape  apples pear   cherry mango  apples
+     Levels: apples cherry grape mango pear
+
+
+4.Menggunakan Function
+
+ Jika terdapat “Function” :
+
+ Di mana x dan y = 3, bagaimana anda menggunakan “Function” tersebut sehingga mendapatkan output berikut :
+
+ Notes :
+
+ Pada bagian function dituliskan dulu (x = ..... , y = .....)
+
+ #jawab :
+
+ 3+3
+
+5.Mengganti Missing Value
+
+  Buatlah sebuah “R Function” di mana Function tersebut dapat digunakan untuk mengganti missing value dari suatu vector dengan nilai mean dari vector tersebut.
+
+  Vector dengan missing value (input) :
+
+  df <- c(1,2,3,4,5,6,NA,7,8,9,NA)
+
+  df
+
+  mean_replace <- ……… 
+  df <- mean_replace(df) df
+
+  Vector sesudah missing value diganti dengan nilai mean (output) :
+  [1] 1 2 3 4 5 6 5 7 8 9 5
+
+  #jawab :
+  df <- c(1,2,3,4,5,6,5,7,8,9,5)
+  df
+  mean_replace <- ....
+  df <- mean_replace(df)
+  df
+
+5.
+
+
+
+
+
+
